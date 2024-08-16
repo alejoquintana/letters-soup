@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Drawer</title>
+    <style>
+        .grid-container {
+            display: grid;
+            /* Spacing between cells */
+            /* gap: 1px;  */
+            background-color: black; /* Color of the grid lines */
+            border: 2px solid black;
+        
+            width: 500px;
+            height: 500px;
+        }
+
+        .grid-item {
+            background-color: white;
+            display: flex;
+            font-size: 180%;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="gridContainer" class="grid-container"></div>
+
+    <script src="grid.js"></script>
+</body>
+</html>
